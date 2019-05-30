@@ -1,0 +1,19 @@
+{
+    "name": "node-demo-app",
+    "version": "1.0.0",
+    "description": "Node.js demo application",
+    "author": "Alec Keller",
+    "main": "server.js",
+    "directories": {
+        "tests": "test"
+    },
+    "scripts": {
+        "test": "mocha",
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.16.1",
+        "mocha": "^6.1.4",
+        "supertest": "^4.0.2"
+    }
+}
